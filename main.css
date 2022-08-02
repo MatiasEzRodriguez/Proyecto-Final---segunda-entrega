@@ -1,0 +1,85 @@
+header {
+    background-image: url(img/banner.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    text-align: center;
+    border: solid 1px black
+    
+}
+
+.nav {  
+    background-color: rgba(110, 106, 49, 0.329);
+    font-style: oblique;
+    text-align: left;
+    font-size: 25px;
+}
+
+.h2 {
+    background-color: rgba(116, 109, 6, 0.582) ;
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.h3 {
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.ofertas {
+    background-color: rgba(110, 106, 49, 0.329) ;
+    padding: 5px;
+    
+}
+
+.contacto {
+    background-color: rgba(77, 8, 8, 0.363);
+    padding: 5px;
+}
+
+.productos {
+    background-color: rgba(50, 13, 85, 0.336);
+    padding: 5px;
+}
+
+.pedidos {
+    background-color: rgba(18, 136, 91, 0.411);
+    padding: 5px;
+}
+td {
+    height: 25px;
+    width: 25px;
+}
+
+.comment {
+    text-align: start;
+}
+.link:hover {
+text-decoration-color:aliceblue;
+text-decoration-line: underline;
+}
+.img:hover {
+    transform: rotateY(25deg);
+    transition: 2s ease;
+}
+
+.h3 {
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+
+}
+
+@keyframes fade-in {
+    0% {
+        transform: translateX(-300px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
