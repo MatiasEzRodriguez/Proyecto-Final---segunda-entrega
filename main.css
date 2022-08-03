@@ -4,16 +4,15 @@ header {
     background-repeat: none;
     background-size: cover;
     text-align: center;
-    border: solid 1px black
+    
+    border: solid 1px black;
+    height: 300px;
+
+    
     
 }
 
-.nav {  
-    background-color: rgba(110, 106, 49, 0.329);
-    font-style: oblique;
-    text-align: left;
-    font-size: 25px;
-}
+
 
 .h2 {
     background-color: rgba(116, 109, 6, 0.582) ;
@@ -42,7 +41,7 @@ header {
 
 .productos {
     background-color: rgba(50, 13, 85, 0.336);
-    padding: 5px;
+    padding: 10px;
 }
 
 .pedidos {
@@ -56,8 +55,19 @@ td {
 
 .comment {
     text-align: start;
+    font-weight: bold;
+    font-size: medium;
 }
-
+.comentario{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.img {
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+}
 
 .img:hover {
     transform: rotateY(25deg);
@@ -80,4 +90,12 @@ td {
         transform: translateX(0px);
         opacity: 1;
     }
+}
+
+.card {
+    padding: 5px !important;
+}
+
+.container {
+    align-items: center !important;
 }
